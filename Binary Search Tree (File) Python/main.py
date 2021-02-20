@@ -4,6 +4,7 @@
 
 from bst import BST
 
+
 def main():
     tree = BST()
     tree.read_File('input.txt')
@@ -18,6 +19,7 @@ def main():
 #         print(str(values[v]) + ' Not Found', end=' ')
 #     else:
 #         print(str(values[v]) + ' Found', end=' ')
+
 
 if __name__ == "__main__":
     main()

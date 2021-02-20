@@ -9,6 +9,7 @@ class Node():
         self.right = None
         self.parent = None
 
+
 class BST():
     def __init__(self):
         self.root = Node(None)

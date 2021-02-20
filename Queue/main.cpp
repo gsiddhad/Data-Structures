@@ -11,33 +11,33 @@ using namespace std;
 
 int main()
 {
-    myqueue <int> q;
-    while(1)
+    myqueue<int> q;
+    while (1)
     {
-        cout<<"\t Queue Using Array\n";
-        cout<<" 01. Enqueue\n";
-        cout<<" 02. Dequeue\n";
-        cout<<" 03. Display\n";
-        cout<<" 04. Exit\n";
-        cout<<" Enter Choice ... ";
+        cout << "\t Queue Using Array\n";
+        cout << " 01. Enqueue\n";
+        cout << " 02. Dequeue\n";
+        cout << " 03. Display\n";
+        cout << " 04. Exit\n";
+        cout << " Enter Choice ... ";
         int ch;
-        cin>>ch;
+        cin >> ch;
         system("clear");
-        switch(ch)
+        switch (ch)
         {
-            case 1:
-                q.enqueue();
-                break;
-            case 2:
-                q.dequeue();
-                break;
-            case 3:
-                q.display();
-                break;
-            case 4:
-                exit(0);
-            default:
-                cout<<" Enter Valid Choice .. \n";
+        case 1:
+            q.enqueue();
+            break;
+        case 2:
+            q.dequeue();
+            break;
+        case 3:
+            q.display();
+            break;
+        case 4:
+            exit(0);
+        default:
+            cout << " Enter Valid Choice .. \n";
         }
     }
     return 0;
